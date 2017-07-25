@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         DispatchQueue.global().async {
             print("global\(Thread.current)")
             Thread.sleep(forTimeInterval: 1.0)
-            let json = ["高铁","汽车","火车"]
+            let json = ["高铁","汽车","火车","飞机"]
             DispatchQueue.main.async(execute: { 
                 print("main\(Thread.current)")
                 completion(json)
