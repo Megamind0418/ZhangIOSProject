@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89909B0C1F2DCA4900101886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89909B0B1F2DCA4900101886 /* AppDelegate.swift */; };
+		89909B0E1F2DCA4900101886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89909B0D1F2DCA4900101886 /* ViewController.swift */; };
+		89909B111F2DCA4900101886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89909B0F1F2DCA4900101886 /* Main.storyboard */; };
+		89909B131F2DCA4900101886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89909B121F2DCA4900101886 /* Assets.xcassets */; };
+		89909B161F2DCA4900101886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89909B141F2DCA4900101886 /* LaunchScreen.storyboard */; };
+		89909B211F2DCA4A00101886 /* _04___session____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89909B201F2DCA4A00101886 /* _04___session____Tests.swift */; };
+		89909B2C1F2DCA4A00101886 /* _04___session____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89909B2B1F2DCA4A00101886 /* _04___session____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89909B1D1F2DCA4A00101886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89909B001F2DCA4900101886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89909B071F2DCA4900101886;
+			remoteInfo = "004-使用session加载百度";
+		};
+		89909B281F2DCA4A00101886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89909B001F2DCA4900101886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89909B071F2DCA4900101886;
+			remoteInfo = "004-使用session加载百度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89909B081F2DCA4900101886 /* 004-使用session加载百度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "004-使用session加载百度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89909B0B1F2DCA4900101886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89909B0D1F2DCA4900101886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89909B101F2DCA4900101886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89909B121F2DCA4900101886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89909B151F2DCA4900101886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89909B171F2DCA4900101886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89909B1C1F2DCA4A00101886 /* 004-使用session加载百度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "004-使用session加载百度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89909B201F2DCA4A00101886 /* _04___session____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_04___session____Tests.swift"; sourceTree = "<group>"; };
+		89909B221F2DCA4A00101886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89909B271F2DCA4A00101886 /* 004-使用session加载百度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "004-使用session加载百度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89909B2B1F2DCA4A00101886 /* _04___session____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_04___session____UITests.swift"; sourceTree = "<group>"; };
+		89909B2D1F2DCA4A00101886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89909B051F2DCA4900101886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89909B191F2DCA4A00101886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89909B241F2DCA4A00101886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89909AFF1F2DCA4900101886 = {
+			isa = PBXGroup;
+			children = (
+				89909B0A1F2DCA4900101886 /* 004-使用session加载百度 */,
+				89909B1F1F2DCA4A00101886 /* 004-使用session加载百度Tests */,
+				89909B2A1F2DCA4A00101886 /* 004-使用session加载百度UITests */,
+				89909B091F2DCA4900101886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89909B091F2DCA4900101886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89909B081F2DCA4900101886 /* 004-使用session加载百度.app */,
+				89909B1C1F2DCA4A00101886 /* 004-使用session加载百度Tests.xctest */,
+				89909B271F2DCA4A00101886 /* 004-使用session加载百度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89909B0A1F2DCA4900101886 /* 004-使用session加载百度 */ = {
+			isa = PBXGroup;
+			children = (
+				89909B0B1F2DCA4900101886 /* AppDelegate.swift */,
+				89909B0D1F2DCA4900101886 /* ViewController.swift */,
+				89909B0F1F2DCA4900101886 /* Main.storyboard */,
+				89909B121F2DCA4900101886 /* Assets.xcassets */,
+				89909B141F2DCA4900101886 /* LaunchScreen.storyboard */,
+				89909B171F2DCA4900101886 /* Info.plist */,
+			);
+			path = "004-使用session加载百度";
+			sourceTree = "<group>";
+		};
+		89909B1F1F2DCA4A00101886 /* 004-使用session加载百度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				89909B201F2DCA4A00101886 /* _04___session____Tests.swift */,
+				89909B221F2DCA4A00101886 /* Info.plist */,
+			);
+			path = "004-使用session加载百度Tests";
+			sourceTree = "<group>";
+		};
+		89909B2A1F2DCA4A00101886 /* 004-使用session加载百度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				89909B2B1F2DCA4A00101886 /* _04___session____UITests.swift */,
+				89909B2D1F2DCA4A00101886 /* Info.plist */,
+			);
+			path = "004-使用session加载百度UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89909B071F2DCA4900101886 /* 004-使用session加载百度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89909B301F2DCA4A00101886 /* Build configuration list for PBXNativeTarget "004-使用session加载百度" */;
+			buildPhases = (
+				89909B041F2DCA4900101886 /* Sources */,
+				89909B051F2DCA4900101886 /* Frameworks */,
+				89909B061F2DCA4900101886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "004-使用session加载百度";
+			productName = "004-使用session加载百度";
+			productReference = 89909B081F2DCA4900101886 /* 004-使用session加载百度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89909B1B1F2DCA4A00101886 /* 004-使用session加载百度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89909B331F2DCA4A00101886 /* Build configuration list for PBXNativeTarget "004-使用session加载百度Tests" */;
+			buildPhases = (
+				89909B181F2DCA4A00101886 /* Sources */,
+				89909B191F2DCA4A00101886 /* Frameworks */,
+				89909B1A1F2DCA4A00101886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89909B1E1F2DCA4A00101886 /* PBXTargetDependency */,
+			);
+			name = "004-使用session加载百度Tests";
+			productName = "004-使用session加载百度Tests";
+			productReference = 89909B1C1F2DCA4A00101886 /* 004-使用session加载百度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89909B261F2DCA4A00101886 /* 004-使用session加载百度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89909B361F2DCA4A00101886 /* Build configuration list for PBXNativeTarget "004-使用session加载百度UITests" */;
+			buildPhases = (
+				89909B231F2DCA4A00101886 /* Sources */,
+				89909B241F2DCA4A00101886 /* Frameworks */,
+				89909B251F2DCA4A00101886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89909B291F2DCA4A00101886 /* PBXTargetDependency */,
+			);
+			name = "004-使用session加载百度UITests";
+			productName = "004-使用session加载百度UITests";
+			productReference = 89909B271F2DCA4A00101886 /* 004-使用session加载百度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89909B001F2DCA4900101886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "张小铀";
+				TargetAttributes = {
+					89909B071F2DCA4900101886 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					89909B1B1F2DCA4A00101886 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89909B071F2DCA4900101886;
+					};
+					89909B261F2DCA4A00101886 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89909B071F2DCA4900101886;
+					};
+				};
+			};
+			buildConfigurationList = 89909B031F2DCA4900101886 /* Build configuration list for PBXProject "004-使用session加载百度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89909AFF1F2DCA4900101886;
+			productRefGroup = 89909B091F2DCA4900101886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89909B071F2DCA4900101886 /* 004-使用session加载百度 */,
+				89909B1B1F2DCA4A00101886 /* 004-使用session加载百度Tests */,
+				89909B261F2DCA4A00101886 /* 004-使用session加载百度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89909B061F2DCA4900101886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89909B161F2DCA4900101886 /* LaunchScreen.storyboard in Resources */,
+				89909B131F2DCA4900101886 /* Assets.xcassets in Resources */,
+				89909B111F2DCA4900101886 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89909B1A1F2DCA4A00101886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89909B251F2DCA4A00101886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89909B041F2DCA4900101886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89909B0E1F2DCA4900101886 /* ViewController.swift in Sources */,
+				89909B0C1F2DCA4900101886 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89909B181F2DCA4A00101886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89909B211F2DCA4A00101886 /* _04___session____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89909B231F2DCA4A00101886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89909B2C1F2DCA4A00101886 /* _04___session____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89909B1E1F2DCA4A00101886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89909B071F2DCA4900101886 /* 004-使用session加载百度 */;
+			targetProxy = 89909B1D1F2DCA4A00101886 /* PBXContainerItemProxy */;
+		};
+		89909B291F2DCA4A00101886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89909B071F2DCA4900101886 /* 004-使用session加载百度 */;
+			targetProxy = 89909B281F2DCA4A00101886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89909B0F1F2DCA4900101886 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89909B101F2DCA4900101886 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89909B141F2DCA4900101886 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89909B151F2DCA4900101886 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89909B2E1F2DCA4A00101886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89909B2F1F2DCA4A00101886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89909B311F2DCA4A00101886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "004-使用session加载百度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.-04---session----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		89909B321F2DCA4A00101886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "004-使用session加载百度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.-04---session----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		89909B341F2DCA4A00101886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "004-使用session加载百度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.-04---session----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/004-使用session加载百度.app/004-使用session加载百度";
+			};
+			name = Debug;
+		};
+		89909B351F2DCA4A00101886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "004-使用session加载百度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.-04---session----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/004-使用session加载百度.app/004-使用session加载百度";
+			};
+			name = Release;
+		};
+		89909B371F2DCA4A00101886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "004-使用session加载百度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.-04---session----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "004-使用session加载百度";
+			};
+			name = Debug;
+		};
+		89909B381F2DCA4A00101886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "004-使用session加载百度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.-04---session----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "004-使用session加载百度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89909B031F2DCA4900101886 /* Build configuration list for PBXProject "004-使用session加载百度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89909B2E1F2DCA4A00101886 /* Debug */,
+				89909B2F1F2DCA4A00101886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89909B301F2DCA4A00101886 /* Build configuration list for PBXNativeTarget "004-使用session加载百度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89909B311F2DCA4A00101886 /* Debug */,
+				89909B321F2DCA4A00101886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89909B331F2DCA4A00101886 /* Build configuration list for PBXNativeTarget "004-使用session加载百度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89909B341F2DCA4A00101886 /* Debug */,
+				89909B351F2DCA4A00101886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89909B361F2DCA4A00101886 /* Build configuration list for PBXNativeTarget "004-使用session加载百度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89909B371F2DCA4A00101886 /* Debug */,
+				89909B381F2DCA4A00101886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89909B001F2DCA4900101886 /* Project object */;
+}
