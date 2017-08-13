@@ -15,6 +15,7 @@
 		899DD15A1F3E9EE300B15028 /* _06_______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DD1591F3E9EE300B15028 /* _06_______UITests.swift */; };
 		899DD1681F3F369C00B15028 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DD1671F3F369C00B15028 /* ListTableViewController.swift */; };
 		899DD16A1F3F36D100B15028 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DD1691F3F36D100B15028 /* DetailViewController.swift */; };
+		899DD16C1F402FBA00B15028 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DD16B1F402FBA00B15028 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		899DD15B1F3E9EE300B15028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		899DD1671F3F369C00B15028 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		899DD1691F3F36D100B15028 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		899DD16B1F402FBA00B15028 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				899DD1391F3E9EE300B15028 /* AppDelegate.swift */,
 				899DD13D1F3E9EE300B15028 /* Main.storyboard */,
+				899DD16B1F402FBA00B15028 /* Person.swift */,
 				899DD1401F3E9EE300B15028 /* Assets.xcassets */,
 				899DD1421F3E9EE300B15028 /* LaunchScreen.storyboard */,
 				899DD1451F3E9EE300B15028 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				899DD16A1F3F36D100B15028 /* DetailViewController.swift in Sources */,
 				899DD13A1F3E9EE300B15028 /* AppDelegate.swift in Sources */,
+				899DD16C1F402FBA00B15028 /* Person.swift in Sources */,
 				899DD1681F3F369C00B15028 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
