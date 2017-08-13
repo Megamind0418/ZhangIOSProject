@@ -22,7 +22,7 @@ class ListTableViewController: UITableViewController {
             self.personList += list
             
             //刷新表格
-            self.tableView.reloadData() 
+            self.tableView.reloadData()
         }
     }
 
@@ -38,7 +38,9 @@ class ListTableViewController: UITableViewController {
                 let p = Person()
                 
                 p.name = "zhang - \(i)"
-                p.phone = "1560" + String(format: "%06d", arc4random_uniform(1000000))
+                p.phone = "1560" + String(format: "%07d", arc4random_uniform(10000000))
+//                %07d 打印7个字符,不足用0补充
+//                arc4random_uniform会随机返回一个0到上界之间(不含上界)的整数
                 p.title = "boss"
                 
                 arrayM.append(p)
@@ -50,6 +52,20 @@ class ListTableViewController: UITableViewController {
                 completion(arrayM)
             })
         }
+    }
+    
+    // MARK: - 数据源方法
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return personList.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath)
+        
+        cell.textLabel?.text = personList[indexPath.row].name
+        cell.detailTextLabel?.text = personList[indexPath.row].phone
+        
+        return cell
     }
     
 }
