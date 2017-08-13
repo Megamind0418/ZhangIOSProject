@@ -513,6 +513,7 @@
 				899DD1601F3E9EE300B15028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		899DD1611F3E9EE300B15028 /* Build configuration list for PBXNativeTarget "006- 私人通讯录Tests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +522,7 @@
 				899DD1631F3E9EE300B15028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		899DD1641F3E9EE300B15028 /* Build configuration list for PBXNativeTarget "006- 私人通讯录UITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				899DD1661F3E9EE300B15028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

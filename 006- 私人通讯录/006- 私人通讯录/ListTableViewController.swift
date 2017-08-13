@@ -23,6 +23,8 @@ class ListTableViewController: UITableViewController {
             
             //刷新表格
             self.tableView.reloadData()
+            
+            
         }
     }
 
@@ -53,6 +55,15 @@ class ListTableViewController: UITableViewController {
             })
         }
     }
+    
+//    // MARK: - 代理方法
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        // 执行segue，segue[葡萄牙语]：如下
+        performSegue(withIdentifier: "list2detail", sender: indexPath)
+        
+    }
+
     
     // MARK: - 数据源方法
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

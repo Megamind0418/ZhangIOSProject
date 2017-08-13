@@ -10,9 +10,11 @@ import UIKit
 
 class DetailViewController: UITableViewController {
 
-    @IBOutlet weak var nameText: UITextField!
+    @IBOutlet weak var nameText:UITextField!
     @IBOutlet weak var phoneText: UITextField!
     @IBOutlet weak var titleText: UITextField!
+
+
     
     var person:Person?
     
@@ -20,7 +22,7 @@ class DetailViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //判断person是否有值,如果有,设置 UI
-        if person != nil{
+        if person != nil {
             nameText.text = person?.name
             phoneText.text = person?.phone
             titleText.text = person?.title
@@ -28,6 +30,7 @@ class DetailViewController: UITableViewController {
         }
 
     }
+
 
     @IBAction func savePerson(_ sender: Any) {
     }
