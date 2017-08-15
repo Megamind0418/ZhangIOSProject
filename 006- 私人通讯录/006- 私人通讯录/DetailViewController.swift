@@ -33,6 +33,13 @@ class DetailViewController: UITableViewController {
 
 
     @IBAction func savePerson(_ sender: Any) {
+//        2.用UI 更新 person 内容
+        person?.name = nameText.text
+        person?.phone = phoneText.text
+        person?.title = titleText.text
+        
+//        4.返回上一级界面
+        navigationController?.popViewController(animated: true)
     }
 
 
