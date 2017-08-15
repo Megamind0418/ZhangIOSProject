@@ -56,6 +56,22 @@ class ListTableViewController: UITableViewController {
         }
     }
     
+    
+    // MARK: - 控制器跳转方法
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //类型转换 as
+//        swift中 String之外 中绝大多数类型转换需要 ？／ ！
+//        as! / as? 直接根据前面的返回值决定，前面的返回值类型是可选的 ？ 就as？ 否则就是 as！
+//        使用 if let ／ guard let 判空语句 一律使用 as？
+        let vc = segue.destination as! DetailViewController
+        
+//        设置选择的person indexPath
+        if let indexPath = sender as? IndexPath{
+//            indexPath一定有值
+            vc.person = personList[indexPath.row]
+        }
+    }
+    
 //    // MARK: - 代理方法
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
