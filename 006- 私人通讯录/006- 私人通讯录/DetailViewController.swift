@@ -14,7 +14,10 @@ class DetailViewController: UITableViewController {
     @IBOutlet weak var phoneText: UITextField!
     @IBOutlet weak var titleText: UITextField!
 
-
+//    完成回调属性
+//    闭包的返回值是可选的
+//    闭包是可选的
+    var completionCallBack: (()->())?
     
     var person:Person?
     
@@ -37,6 +40,11 @@ class DetailViewController: UITableViewController {
         person?.name = nameText.text
         person?.phone = phoneText.text
         person?.title = titleText.text
+        
+//        执行闭包回调
+//        ！强行解包 （xcode 帮助修订 一定不要用 ！）
+//        ？可选解包 如果闭包为 nil 就什么都不做
+        completionCallBack?()
         
 //        4.返回上一级界面
         navigationController?.popViewController(animated: true)
