@@ -51,7 +51,7 @@
                     <navigationItem key="navigationItem" title="联系人列表" id="UoA-Ma-ikL">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Y8T-Zs-zaC">
                             <connections>
-                                <segue destination="n0e-ZP-Y7o" kind="show" id="gmd-pR-TjN"/>
+                                <action selector="newPerson:" destination="qzc-j7-EIn" id="nwe-gN-gbA"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -179,7 +179,4 @@
             <point key="canvasLocation" x="-794" y="-492"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="3yI-qC-UI0"/>
-    </inferredMetricsTieBreakers>
 </document>
