@@ -505,6 +505,7 @@
 				897730C11ECFF58200FAE26A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		897730C21ECFF58200FAE26A /* Build configuration list for PBXNativeTarget "L02Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				897730C41ECFF58200FAE26A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		897730C51ECFF58200FAE26A /* Build configuration list for PBXNativeTarget "L02UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				897730C71ECFF58200FAE26A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
