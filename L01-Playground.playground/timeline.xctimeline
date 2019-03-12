@@ -3,8 +3,43 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/superhaha/Documents/Zhang/ZhangIOSProject/L01-Playground.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=3&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=527759223.449196"
+         documentLocation = "file:///Users/superhaha/Zhang/ZhangIOSProject/L01-Playground.playground#CharacterRangeLen=1023&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=31&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=573968740.257928"
          selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/superhaha/Zhang/ZhangIOSProject/L01-Playground.playground#CharacterRangeLen=602&amp;CharacterRangeLoc=488&amp;EndingColumnNumber=0&amp;EndingLineNumber=31&amp;StartingColumnNumber=0&amp;StartingLineNumber=14&amp;Timestamp=573968740.258057"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/superhaha/Zhang/ZhangIOSProject/L01-Playground.playground#CharacterRangeLen=165&amp;CharacterRangeLoc=925&amp;EndingColumnNumber=0&amp;EndingLineNumber=31&amp;StartingColumnNumber=0&amp;StartingLineNumber=24&amp;Timestamp=573968740.2581429"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/superhaha/Zhang/ZhangIOSProject/L01-Playground.playground#CharacterRangeLen=175&amp;CharacterRangeLoc=2434&amp;EndingColumnNumber=0&amp;EndingLineNumber=123&amp;StartingColumnNumber=0&amp;StartingLineNumber=111&amp;Timestamp=573968740.2582231"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/superhaha/Zhang/ZhangIOSProject/L01-Playground.playground#CharacterRangeLen=175&amp;CharacterRangeLoc=2434&amp;EndingColumnNumber=0&amp;EndingLineNumber=123&amp;StartingColumnNumber=0&amp;StartingLineNumber=111&amp;Timestamp=573968740.258309"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/superhaha/Zhang/ZhangIOSProject/L01-Playground.playground#CharacterRangeLen=175&amp;CharacterRangeLoc=2434&amp;EndingColumnNumber=0&amp;EndingLineNumber=123&amp;StartingColumnNumber=0&amp;StartingLineNumber=111&amp;Timestamp=573968740.258387"
+         selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/superhaha/Zhang/ZhangIOSProject/L01-Playground.playground#CharacterRangeLen=25&amp;CharacterRangeLoc=2584&amp;EndingColumnNumber=0&amp;EndingLineNumber=123&amp;StartingColumnNumber=0&amp;StartingLineNumber=120&amp;Timestamp=573968740.258463"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/superhaha/Zhang/ZhangIOSProject/L01-Playground.playground#CharacterRangeLen=88&amp;CharacterRangeLoc=2521&amp;EndingColumnNumber=0&amp;EndingLineNumber=123&amp;StartingColumnNumber=0&amp;StartingLineNumber=117&amp;Timestamp=573968740.258541"
+         selectedRepresentationIndex = "2"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
    </TimelineItems>

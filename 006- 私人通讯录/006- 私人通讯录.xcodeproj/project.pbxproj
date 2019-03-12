@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					899DD1351F3E9EE300B15028 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 35JTYGBDK3;
 						ProvisioningStyle = Automatic;
 					};
 					899DD1491F3E9EE300B15028 = {
@@ -420,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35JTYGBDK3;
 				INFOPLIST_FILE = "006- 私人通讯录/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.-06-------";
@@ -432,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35JTYGBDK3;
 				INFOPLIST_FILE = "006- 私人通讯录/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.-06-------";
