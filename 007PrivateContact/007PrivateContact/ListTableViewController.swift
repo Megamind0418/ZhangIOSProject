@@ -10,16 +10,19 @@ import UIKit
 
 class ListTableViewController: UITableViewController {
 
+//    联系人数组
+    var personList = [Person]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
-        loadData { (<#[Person]#>) in
-            <#code#>
+        loadData { (list) in
+            print(list )
+//            '拼接'数组,闭包中定义好的代码在需要的时候执行,需要 self.指定语境
+            self.personList += list
+//            刷新表格
+            self.tableView.reloadData()
         }
     }
 
@@ -44,7 +47,7 @@ class ListTableViewController: UITableViewController {
             }
             
             
-            //            主线程回调
+            //   尾随闭包  嵌套的gcd Xcode 不会改成尾随闭包      主线程回调
             DispatchQueue.main.async(execute: {
                 completion(arrayM)
             })
