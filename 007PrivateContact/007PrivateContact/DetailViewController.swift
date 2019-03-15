@@ -10,16 +10,29 @@ import UIKit
 
 class DetailViewController: UITableViewController {
 
+    @IBOutlet weak var nameText: UITextField!
+    @IBOutlet weak var phoneText: UITextField!
+    @IBOutlet weak var titleText: UITextField!
+    
+    
+    var person:Person?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+//      判断 person 是否有值,如果有则设置 UI
+        if person != nil{
+            nameText.text = person?.name
+            phoneText.text = person?.phone
+            titleText.text = person?.title
+        }
+        
+        
+    }  
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+   
+    @IBAction func savePerson(_ sender: Any) {
     }
-
     
     
 }
