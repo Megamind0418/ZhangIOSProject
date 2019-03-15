@@ -36,12 +36,12 @@ class ListTableViewController: UITableViewController {
             var arrayM = [Person]()
 
 
-            for i in 0..<20{
+            for i in 1...20{
                 let p = Person()
                 
                 p.name = "zhangsan - \(i)"
                 p.phone = "1560"+String.init(format: "%06d", arc4random_uniform(1000000))
-                p.title = "boss"
+                p.title = "boss\(i)"
                 
                 arrayM.append(p)
             }
@@ -52,6 +52,28 @@ class ListTableViewController: UITableViewController {
                 completion(arrayM)
             })
         }
+    }
+    
+    //    MARK: - 控制器跳转方法
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        类型转换 as
+//        swift 中 String 之外,绝大多数使用 as 需要 ? / !
+//        as! / as? 直接根据前面的返回值决定, destination 不是可选值,所以用 as! ,否则用 as?
+        let vc = segue.destination as! DetailViewController
+        
+//        设置选择的 person,indexPath
+        if let indexPath = sender as? IndexPath{
+//            indexPath 一定有值
+            vc.person = personList[indexPath.row]
+        }
+    }
+    
+    //    MARK: - 代理方法 跳转到明细界面
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+//        执行segue
+        performSegue(withIdentifier: "list2detail", sender: indexPath)
     }
     
     //    MARK: - 数据源方法
