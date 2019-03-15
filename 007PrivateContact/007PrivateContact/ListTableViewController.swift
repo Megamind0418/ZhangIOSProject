@@ -58,13 +58,18 @@ class ListTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        类型转换 as
 //        swift 中 String 之外,绝大多数使用 as 需要 ? / !
-//        as! / as? 直接根据前面的返回值决定, destination 不是可选值,所以用 as! ,否则用 as?
+//        chiwanel you
         let vc = segue.destination as! DetailViewController
         
 //        设置选择的 person,indexPath
         if let indexPath = sender as? IndexPath{
 //            indexPath 一定有值
             vc.person = personList[indexPath.row]
+            
+//            设置编辑完成的闭包
+            vc.completionCallBack = {
+                self.tableView.reloadRows(at: [indexPath], with: .automatic)
+            }
         }
     }
     
