@@ -21,6 +21,8 @@ class DetailViewController: UITableViewController {
 //    闭包是可选的
     var completionCallBack:(()->())?
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 //      判断 person 是否有值,如果有则设置 UI
@@ -36,13 +38,18 @@ class DetailViewController: UITableViewController {
 //   保存按钮
     @IBAction func savePerson(_ sender: Any) {
         
+//        判断 person 是否为空,是则新建
+        if person == nil {
+            person = Person()
+        }
+        
 //        用 UI 更新 personn 的内容
         person?.name = nameText.text
         person?.phone = phoneText.text
         person?.title = titleText.text
         
 //        执行闭包回调
-         completionCallBack?()
+        completionCallBack?()
         
 //          返回上一级界面
         navigationController?.popViewController(animated: true)

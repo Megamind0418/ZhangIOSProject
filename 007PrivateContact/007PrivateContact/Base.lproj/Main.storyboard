@@ -49,7 +49,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="联系人列表" id="XLW-gs-Ypb">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="VTJ-w6-d8y"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="VTJ-w6-d8y">
+                            <connections>
+                                <action selector="newPerson:" destination="vUe-UK-Qqv" id="93c-pc-hYj"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <segue destination="fOp-ku-siK" kind="show" identifier="list2detail" id="cL8-8U-gne"/>
