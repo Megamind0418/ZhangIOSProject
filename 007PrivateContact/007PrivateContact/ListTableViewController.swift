@@ -68,9 +68,9 @@ class ListTableViewController: UITableViewController {
 //        chiwanel you
         let vc = segue.destination as! DetailViewController
         
-//        设置选择的 person,indexPath
+//        设置选择的 person,indexPath,修改已存在的数据并保存刷新表格
         if let indexPath = sender as? IndexPath{
-//            indexPath 一定有值
+//            indexPath 一定有值, 此处会将 person 实例传回 detailviewcontroller,
             vc.person = personList[indexPath.row]
             
 //            设置编辑完成的闭包
@@ -78,11 +78,12 @@ class ListTableViewController: UITableViewController {
                 self.tableView.reloadRows(at: [indexPath], with: .automatic)
             }
         }else{
-//            新建个人记录
+//            新建个人记录,建立新的数据并保存刷新表格
             vc.completionCallBack = {
+                    [weak vc] in
                 
                 //            1.获取明细控制器的 person
-                guard let p = vc.person else {
+                guard let p = vc?.person else {
                     return
                 }
                 //            2.插入到数组顶部
@@ -119,3 +120,24 @@ class ListTableViewController: UITableViewController {
     }
     
  }
+
+ /**
+  1.创建界面
+  联系人界面navigation controller,subtitle,"cellid",页面跳转链接 list2detail,navigation item, +号bar button item
+  明细界面tableview controller,static cell,navigation item,save bar button item,textfield 左右布局,垂直居中.
+  
+  2.ListTableViewController
+    -.模拟异步,闭包回调,设置每一个联系人的参数
+    -.数据传入表格,表格刷新
+    -.didSelectRowAt 跳转到明细界面
+    -.cellForRowAt 设置 cell 数据
+    -.数据源,numberOfRowsInSection
+  
+    DetailViewController,
+  
+    Person
+  
+  
+
+  
+  */

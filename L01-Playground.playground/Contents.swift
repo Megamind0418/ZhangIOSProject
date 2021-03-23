@@ -440,8 +440,13 @@ import UIKit
 //arrayM.append(p)
 //arrayM.count
 
-let b = {
-    (x) in print(x)
-}
-b(100)
+//let b = {
+//    (x) in print(x)
+//}
+//b(100)
+
+//
+//var userlogin = false
+//
+//userlogin ? 1 : 2
 
